@@ -1,0 +1,96 @@
+body {
+  background-color: #393e46;
+  text-align: center;
+}
+h2 {
+  font-size: 2rem;
+  color: #4ecca3;
+  font-family: "Indie Flower", cursive;
+  margin-top: 0;
+}
+a {
+  text-decoration: none;
+  color: #eeeeee;
+}
+
+/* hidden dicee points */
+#firstTwo,
+#firstFive,
+#firstEight,
+#secondTwo,
+#secondFive,
+#secondEight {
+  visibility: hidden;
+}
+
+/* Header section */
+.bigHeader {
+  font-family: "Lobster", cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ecca3;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+/* main section */
+
+.playerOne {
+  display: inline-block;
+  padding: 5% 5% 0;
+}
+
+.playerTwo {
+  display: inline-block;
+  padding: 5% 5% 0;
+}
+
+.dicee {
+  width: 300px;
+  height: 300px;
+  background-color: brown;
+  border-radius: 5%;
+  border: 1px solid black;
+}
+
+.point {
+  padding: 0;
+  margin: 5% 2px auto 2px;
+  display: inline-block;
+  width: 26%;
+  height: 26%;
+  background-color: white;
+  border-radius: 50%;
+}
+
+/* roll button section */
+.btn {
+  height: 3rem;
+  width: 15rem;
+  margin: 4% auto 0 auto;
+  font-family: "Lobster", cursive;
+  font-size: 2rem;
+  background-color: #4ecca3;
+  color: #eeeeee;
+  border: 2px solid black;
+}
+.btn:hover {
+  color: white;
+  background-color: #4be4b1;
+  cursor: pointer;
+  border: 2px solid white;
+}
+.btn:active {
+  color: #4ecca3;
+  background-color: #eeeeee;
+  border: 3px solid black;
+}
+
+/* footer section */
+
+.footer {
+  margin-top: 5%;
+  color: #eeeeee;
+  text-align: center;
+  font-family: "Indie Flower", cursive;
+}

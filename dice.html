@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="dice.css" />
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <title>Dicee</title>
+  </head>
+  <body>
+    <header>
+      <h1 id="result" class="bigHeader">Roll to get a winner!</h1>
+    </header>
+    <main>
+      <div class="playerOne">
+        <h2>Player 1</h2>
+        <!-- <img class="playerOneDicee" src="" alt="Dicee for player one" /> -->
+        <div class="dicee">
+          <div id="firstOne" class="point"></div>
+          <div id="firstTwo" class="point"></div>
+          <div id="firstThree" class="point"></div>
+          <div id="firstFour" class="point"></div>
+          <div id="firstFive" class="point"></div>
+          <div id="firstSix" class="point"></div>
+          <div id="firstSeven" class="point"></div>
+          <div id="firstEight" class="point"></div>
+          <div id="firstNine" class="point"></div>
+        </div>
+      </div>
+      <div class="playerTwo">
+        <h2>Player 2</h2>
+        <!-- <img class="playerTwoDicee" src="" alt="Dice for player two" /> -->
+        <div class="dicee">
+          <div id="secondOne" class="point"></div>
+          <div id="secondTwo" class="point"></div>
+          <div id="secondThree" class="point"></div>
+          <div id="secondFour" class="point"></div>
+          <div id="secondFive" class="point"></div>
+          <div id="secondSix" class="point"></div>
+          <div id="secondSeven" class="point"></div>
+          <div id="secondEight" class="point"></div>
+          <div id="secondNine" class="point"></div>
+        </div>
+      </div>
+      <div>
+        <button id="rollButton" class="btn" onclick="roll()">Roll</button>
+      </div>
+    </main>
+    <footer>
+      <p class="footer">
+        Developed By :
+        <a href="https://www.facebook.com/aminul2507" target="_blank"
+          >Aminul imam</a
+        >
+      </p>
+    </footer>
+    <script src="dice.js"></script>
+  </body>
+</html>
